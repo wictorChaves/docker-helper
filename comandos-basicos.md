@@ -25,14 +25,14 @@ docker run ubuntu
 #### Remover um conteiner
 
 ```batch
-docker rm nome_conteiner
-docker rm id_container
+docker rm <nome do conteiner>
+docker rm <id do conteiner>
 ```
 
 #### Forçar a remoção de um conteiner
 
 ```batch
-docker rm id_container -f
+docker rm <id do conteiner> -f
 ```
 
 #### Executa um conteiner
@@ -57,7 +57,7 @@ docker run -it ubuntu
 #### Parar um conteiner
 
 ```batch
-docker stop nome_conteiner
+docker stop <nome do conteiner>
 docker stop id
 ```
 > Duas formas de parar o conteiner
@@ -72,17 +72,29 @@ docker run -p 80:80 nginx
 #### Definir nome para o conteiner
 
 ```batch
-docker run -p 80:80 nginx --name meu_localhost
+docker run -p 80:80 nginx --name <nome para o conteiner>
 ```
 
 #### Acessando os logs
 
 ```batch
-docker logs id_container 
+docker logs <id do conteiner> 
 ```
 
 #### Fica escutando os logs
 
 ```batch
-docker logs -f id_container 
+docker logs -f <id do conteiner> 
+```
+
+#### Construindo um container
+
+```batch
+docker build <diretório da imagem>
+```
+
+#### Lista todas as imagens da maquina
+
+```batch
+docker image ls
 ```
