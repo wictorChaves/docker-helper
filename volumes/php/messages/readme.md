@@ -1,0 +1,1 @@
+# Pasta para testar o bind mounts
