@@ -5,4 +5,6 @@
 
 ## Projetos
 
- - [Node](node-project/)
+ - [Node - Projeto inicial](projetos/node)
+ - [PHP - Trabalhando com volume](projetos/php)
+ - [Python - Trabalhando com network](projetos/python)
