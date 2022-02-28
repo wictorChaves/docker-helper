@@ -1,0 +1,10 @@
+version: "2.1"
+
+services:
+  node:
+    container_name: cypresscontainer
+    build: ./.docker/node/
+    volumes:
+      - "./:/e2e"
+    working_dir: /e2e
+    command: npx cypress run --record=false
