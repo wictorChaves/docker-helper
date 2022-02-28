@@ -15,3 +15,4 @@
  - [Wordpress - Build](projetos/compose/build)
  - [Wordpress - Bind Mount](projetos/compose/bind-mount)
  - [Angular - ng serve](projetos/compose/angular)
+ - [Cypress](projetos/compose/cypress)
